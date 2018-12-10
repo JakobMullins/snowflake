@@ -731,7 +731,7 @@ export const tracks: Tracks = {
     "description": "Challenging the status quo with the end goal of improvement.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are having conversations that help yourself and others understand and issues and the status of quality.",
+      "summary": "You are having conversations that help yourself and others understand issues and the status of quality.",
       "signals": [
         "Code Reviews",
         "Design Reviews",
