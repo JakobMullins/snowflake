@@ -17,7 +17,7 @@ class TrackSelector extends React.Component<Props> {
         <style jsx>{`
           table {
             width: 100%;
-            border-spacing: 3px;
+            border-spacing: 4px;
             border-bottom: 2px solid #ccc;
             padding-bottom: 20px;
             margin-bottom: 20px;
@@ -30,11 +30,13 @@ class TrackSelector extends React.Component<Props> {
             background: #eee;
             font-weight: bold;
             font-size: 24px;
+            color: white;
             border-radius: 3px;
             cursor: pointer;
           }
           .track-selector-label {
             text-align: center;
+            font-weight: bold;
             font-size: 9px;
           }
         `}</style>

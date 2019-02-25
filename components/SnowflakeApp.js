@@ -73,25 +73,24 @@ const emptyState = (): SnowflakeAppState => {
 
 const defaultState = (): SnowflakeAppState => {
   return {
-    name: 'Cersei Lannister',
-    title: 'Staff Engineer',
+    title: 'Hudlies Name',
     milestoneByTrack: {
       'MOBILE': 1,
-      'WEB_CLIENT': 2,
-      'FOUNDATIONS': 3,
-      'SERVERS': 2,
-      'PROJECT_MANAGEMENT': 4,
+      'WEB_CLIENT': 1,
+      'FOUNDATIONS': 1,
+      'SERVERS': 1,
+      'PROJECT_MANAGEMENT': 1,
       'COMMUNICATION': 1,
       'CRAFT': 1,
-      'INITIATIVE': 4,
-      'CAREER_DEVELOPMENT': 3,
-      'ORG_DESIGN': 2,
-      'WELLBEING': 0,
-      'ACCOMPLISHMENT': 4,
-      'MENTORSHIP': 2,
-      'EVANGELISM': 2,
-      'RECRUITING': 3,
-      'COMMUNITY': 0
+      'INITIATIVE': 1,
+      'CAREER_DEVELOPMENT': 1,
+      'ORG_DESIGN': 1,
+      'WELLBEING': 1,
+      'ACCOMPLISHMENT': 1,
+      'MENTORSHIP': 1,
+      'EVANGELISM': 1,
+      'RECRUITING': 1,
+      'COMMUNITY': 1
     },
     focusedTrackId: 'MOBILE'
   }
@@ -138,8 +137,9 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
           }
           .name-input {
             border: none;
+            text-align: center;
             display: block;
-            border-bottom: 2px solid #fff;
+            border-bottom: 2px solid #ccc;
             font-size: 30px;
             line-height: 40px;
             font-weight: bold;
@@ -147,7 +147,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             margin-bottom: 10px;
           }
           .name-input:hover, .name-input:focus {
-            border-bottom: 2px solid #ccc;
+            border-bottom: 2px solid #ff8c00;
             outline: 0;
           }
           a {
@@ -156,25 +156,25 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
           }
         `}</style>
         <div style={{margin: '19px auto 0', width: 142}}>
-          <a href="https://medium.com/" target="_blank">
+          <a href="https://hudl.com" target="_blank">
             <Wordmark />
           </a>
         </div>
-        <div style={{display: 'flex'}}>
-          <div style={{flex: 1}}>
-            <form>
+        <div align="center">
+          <div style={{flex: .5}}>
+            { <form>
               <input
                   type="text"
                   className="name-input"
                   value={this.state.name}
                   onChange={e => this.setState({name: e.target.value})}
-                  placeholder="Name"
+                  placeholder="Hudlies Name"
                   />
-              <TitleSelector
+              {/* <TitleSelector
                   milestoneByTrack={this.state.milestoneByTrack}
                   currentTitle={this.state.title}
-                  setTitleFn={(title) => this.setTitle(title)} />
-            </form>
+                  setTitleFn={(title) => this.setTitle(title)} /> */}
+            </form> }
             <PointSummaries milestoneByTrack={this.state.milestoneByTrack} />
             <LevelThermometer milestoneByTrack={this.state.milestoneByTrack} />
           </div>
@@ -199,12 +199,12 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             trackId={this.state.focusedTrackId}
             handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, milestone)} />
         <div style={{display: 'flex', paddingBottom: '20px'}}>
-          <div style={{flex: 1}}>
+          {/* <div style={{flex: 1}}>
             Made with ❤️ by <a href="https://medium.engineering" target="_blank">Medium Eng</a>.
             Learn about the <a href="https://medium.com/s/engineering-growth-framework" target="_blank">growth framework</a>.
             Get the <a href="https://github.com/Medium/snowflake" target="_blank">source code</a>.
             Read the <a href="https://medium.com/p/85e078bc15b7" target="_blank">terms of service</a>.
-          </div>
+          </div> */}
         </div>
       </main>
     )

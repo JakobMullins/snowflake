@@ -22,25 +22,26 @@ class PointSummaries extends React.Component<Props> {
     let pointsToNextLevel = 1
     while (!(nextLevel = pointsToLevels[totalPoints + pointsToNextLevel])) {
       pointsToNextLevel++
-      if (pointsToNextLevel > 135) {
+      if (pointsToNextLevel >= 90) {
         pointsToNextLevel = 'N/A'
         break
       }
     }
 
     const blocks = [
-      {
-        label: 'Current level',
-        value: currentLevel
-      },
-      {
-        label: 'Total points',
-        value: totalPoints
-      },
-      {
-        label: 'Points to next level',
-        value: pointsToNextLevel
-      }
+      // {
+      //   label: 'Current level',
+      //   value: currentLevel
+      // },
+      // {
+      //   label: 'Total points',
+      //   value: totalPoints
+      // },
+      //REMOVING POINTS TO NEXT LEVEL TO AVOID PROMOTION FOCUS
+      // {
+      //   label: 'Points to next level',
+      //   value: pointsToNextLevel
+      // }
     ]
 
     return (
@@ -52,9 +53,9 @@ class PointSummaries extends React.Component<Props> {
             margin-left: -3px;
           }
           .point-summary-label {
-            font-size: 12px;
+            font-size: 18px;
             text-align: center;
-            font-weight: normal;
+            font-weight: bold;
             width: 120px;
           }
           .point-summary-value {
