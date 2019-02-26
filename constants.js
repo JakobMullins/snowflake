@@ -1,31 +1,30 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'TEST' | 'ANALYZE' | 'DRIVE' //| 'SERVERS' |
-  'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
-  'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
-  'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
+export type TrackId = 'MOBILE' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
+  'PROJECT_MANAGEMENT' | 'COMMUNICATION'
 export type Milestone = 0 | 1 | 2 | 3
 
 export type MilestoneMap = {
-  'TEST': Milestone,
-  'ANALYZE': Milestone,
-  'DRIVE': Milestone,
-  //'TESTING PLANS': Milestone,
+  'MOBILE': Milestone,
+  'WEB_CLIENT': Milestone,
+  'FOUNDATIONS': Milestone,
+  'SERVERS': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
   'COMMUNICATION': Milestone,
-  'CRAFT': Milestone,
-  'INITIATIVE': Milestone,
-  'CAREER_DEVELOPMENT': Milestone,
-  'ORG_DESIGN': Milestone,
-  'WELLBEING': Milestone,
-  'ACCOMPLISHMENT': Milestone,
-  'MENTORSHIP': Milestone,
-  'EVANGELISM': Milestone,
-  'RECRUITING': Milestone,
-  'COMMUNITY': Milestone
 }
-export const milestones = [0, 1, 2, 3]
+export const milestones = [0, 1, 2, 3];
+
+// export const milestoneToPoints = (
+//   milestone: Milestone,
+//   trackId: TrackId
+// ): number => {
+//   if (trackId === 'WEB_CLIENT') {
+//     return milestone * 2;
+//   } else {
+//     return milestone;
+//   }
+// };
 
 export const milestoneToPoints = (milestone: Milestone): number => {
   switch (milestone) {
@@ -40,24 +39,24 @@ export const milestoneToPoints = (milestone: Milestone): number => {
 }
 
 export const pointsToLevels = {
-  '0': '1.1',
-  '5': '1.2',
-  '11': '1.3',
-  '17': '2.1',
-  '23': '2.2',
-  '29': '2.3',
-  '36': '3.1',
-  '43': '3.2',
-  '50': '3.3',
-  '58': '4.1',
-  '66': '4.2',
-  '74': '4.3',
-  '90': '5.1',
+  '0': '3',
+  '7': '4',
+  '10': '5',
+  '33': '6',
+  '36': '7',
+  // '29': '2.3',
+  // '36': '3.1',
+  // '43': '3.2',
+  // '50': '3.3',
+  // '58': '4.1',
+  // '66': '4.2',
+  // '74': '4.3',
+  // '90': '5.1',
   //'110': '5.2',
   //'135': '5.3',
-}
+};
 
-export const maxLevel = 180
+export const maxLevel = 36
 
 export type Track = {
   displayName: string,
@@ -71,36 +70,38 @@ export type Track = {
 }
 
 type Tracks = {|
-  'TEST': Track,
+  'MOBILE': Track,
   'ANALYZE': Track,
   'FOUNDATIONS': Track,
   'SERVERS': Track,
   'PROJECT_MANAGEMENT': Track,
   'COMMUNICATION': Track,
-  'CRAFT': Track,
-  'INITIATIVE': Track,
-  'CAREER_DEVELOPMENT': Track,
-  'ORG_DESIGN': Track,
-  'WELLBEING': Track,
-  'ACCOMPLISHMENT': Track,
-  'MENTORSHIP': Track,
-  'EVANGELISM': Track,
-  'RECRUITING': Track,
-  'COMMUNITY': Track
 |}
 
 export const tracks: Tracks = {
   "MOBILE": {
-    "displayName": "Test Metric: Testing Methods",
+    "displayName": "Self",
     "category": "A",
     "description": "Strategies and approaches used to test an application to ensure it behaves and looks as expected.",
     "milestones": [{
+      // //Milestone 0
+      // "summary": "Professional Development is not a focus and you have no outcomes to show personal growth",
+      // "signals": [
+      //   // "Automation",
+      //   // "Test Bashes",
+      //   // "Exploratory Testing",
+      // ],
+      // "examples": [
+      //   // "Example Task",
+      //   // "Example Task",
+      //   // "Example Task",
+      // ],
       //Milestone 1
       "summary": "You are learning Hudl’s test methods and tools and have started to implement them into your testing.",
       "signals": [
-        "Automation",
-        "Test Bashes",
-        "Exploratory Testing",
+        // "Automation",
+        // "Test Bashes",
+        // "Exploratory Testing",
       ],
       "examples": [
         // "Example Task",
@@ -111,9 +112,9 @@ export const tracks: Tracks = {
     }, {
       "summary": "You know how and when to use the right testing method and tools during testing.",
       "signals": [
-        "Automation",
-        "Test Bashes",
-        "Exploratory Testing",
+        // "Automation",
+        // "Test Bashes",
+        // "Exploratory Testing",
       ],
       "examples": [
         // "Example Task",
@@ -124,9 +125,9 @@ export const tracks: Tracks = {
     }, {
       "summary": "You are creating and coaching others on how to best use specific testing methods and tools.",
       "signals": [
-        "Automation",
-        "Test Bashes",
-        "Exploratory Testing",
+        // "Automation",
+        // "Test Bashes",
+        // "Exploratory Testing",
       ],
       "examples": [
         // "Example Task",
@@ -151,8 +152,8 @@ export const tracks: Tracks = {
   },
 
   "WEB_CLIENT": {
-    "displayName": "Test Metric: Shifting Left",
-    "category": "A",
+    "displayName": "Squad",
+    "category": "B",
     "description": "Ensuring quality earlier in the product lifecycle.",
     "milestones": [{
       //Milestone 1
@@ -223,8 +224,8 @@ export const tracks: Tracks = {
   },
 
   "FOUNDATIONS": {
-    "displayName": "Test Metric: Product Stack",
-    "category": "A",
+    "displayName": "Tribe",
+    "category": "C",
     "description": "Knowledge and insight to the different software, platforms and business levels that make up a product.",
     "milestones": [{
       //Milestone 1
@@ -295,8 +296,8 @@ export const tracks: Tracks = {
   },
 
   "SERVERS": {
-    "displayName": "Test Metric: User Focus",
-    "category": "A",
+    "displayName": "Chapter",
+    "category": "D",
     "description": "Understanding and adoption of user workflows, stories, and insights to product usage.",
     "milestones": [{
       //Milestone 1
@@ -367,8 +368,8 @@ export const tracks: Tracks = {
   },
 
   "PROJECT_MANAGEMENT": {
-    "displayName": "Analyze Metric: Data Analysis",
-    "category": "B",
+    "displayName": "Platform/App",
+    "category": "E",
     "description": "Ability to understand insights relating to products and users.",
     "milestones": [{
       //Milestone 1
@@ -439,8 +440,8 @@ export const tracks: Tracks = {
   },
 
   "COMMUNICATION": {
-    "displayName": "Analyze Metric: Risk Communication",
-    "category": "B",
+    "displayName": "People",
+    "category": "F",
     "description": "Shares the right amount of information with the right people, at the right time, and reacts effectively.",
     "milestones": [{
       //Milestone 1
@@ -510,436 +511,436 @@ export const tracks: Tracks = {
     }],
   },
 
-  "CRAFT": {
-    "displayName": "Analyze Metric: Deep Dive",
-    "category": "B",
-    "description": "Ability to discover and then understand the why behind trends and issues.",
-    "milestones": [{
-      //Milestone 1
-      "summary": "You are learning the processes and tools for discovering root causes of issues or trends.",
-      "signals": [
-        "Post Mortems",
-        "Stack Traces",
-        "Reproing Issues",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 2
-      "summary": "You discover and communicate the why and how behind issues and trends.",
-      "signals": [
-        "Post Mortems",
-        "Stack Traces",
-        "Reproing Issues",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 3
-      "summary": "Your investigation skills go beyond talking about the what and why; you go a level deeper by using insights to predict and prevent future issues.",
-      "signals": [
-        "Post Mortems",
-        "Stack Traces",
-        "Reproing Issues",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 4
-      "summary": "Advocates for and models great quality with proactive actions, and tackles difficult and subtle system issues",
-      "signals": [
-        "Builds systems so as to eliminate entire classes of programmer error",
-        "Focuses the team on quality with regular reminders",
-        "Coordinates Watch priorities and projects",
-      ],
-      "examples": [
-        "Added code coverage reporting to iOS CI pipeline",
-        "Iterated repeatedly to develop Medium's underlines solution",
-        "Defined and oversaw plan for closing Heartbleed vulnerability",
-      ],
-    }, {
-      //Milestone 5
-      "summary": "Enables and encourages the entire organization to make quality a central part of the development process",
-      "signals": [
-        "Defines policies for the engineering org that encourage quality work",
-        "Identifies and eliminates single points of failure throughout the organization",
-        "Secures time and resources from execs to support great quality",
-      ],
-      "examples": [
-        "Negotiated resources for Fix-It week with exec team",
-        "Instituted and ensured success of a 20% time policy",
-        "Started The Watch",
-      ],
-    }],
-  },
-  "INITIATIVE": {
-    "displayName": "Analyze Metric: Connections",
-    "category": "B",
-    "description": "Undertanding how all the pieces fit together and how each piece impacts all aspects of a product.",
-    "milestones": [{
-      //Milestone 1
-      "summary": "You are learning how all of your squads features impact user workflows.",
-      "signals": [
-        "Feature Interactions",
-        "Product & System Architecture",
-        "Impact & Risk Analysis",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 2
-      "summary": "You understand how users and the team will be impacted by various changes and outcomes.",
-      "signals": [
-        "Feature Interactions",
-        "Product & System Architecture",
-        "Impact & Risk Analysis",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 3
-      "summary": "You help shape how changes and outcomes will fit into the bigger picture and overall success of the product.",
-      "signals": [
-        "Feature Interactions",
-        "Product & System Architecture",
-        "Impact & Risk Analysis",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 4
-      "summary": "Effects change that has a substantial positive impact on the engineering organization or a major product impact",
-      "signals": [
-        "Champions and pioneers new technologies to solve new classes of problem",
-        "Exemplifies grit and determination in the face of persistent obstacles",
-        "Instigates major new features, services, or architectures",
-      ],
-      "examples": [
-        "Created the interviewing rubric and booklet",
-        "Implemented and secured support for native login",
-        "Migrated medium2 to mono repo and bazel",
-      ],
-    }, {
-      //Milestone 5
-      "summary": "Effects change that has a substantial positive impact on the whole company",
-      "signals": [
-        "Creates a new function to solve systemic issues",
-        "Galvanizes the entire company and garners buy in for a new strategy",
-        "Changes complex organizational processes",
-      ],
-      "examples": [
-        "Migrated the organization from Holacracy",
-        "Built Medium Android prototype and convinced execs to fund it",
-        "Convinced leadership and engineering org to move to Medium Lite architecture",
-      ],
-    }],
-  },
+  // "CRAFT": {
+  //   "displayName": "Analyze Metric: Deep Dive",
+  //   "category": "B",
+  //   "description": "Ability to discover and then understand the why behind trends and issues.",
+  //   "milestones": [{
+  //     //Milestone 1
+  //     "summary": "You are learning the processes and tools for discovering root causes of issues or trends.",
+  //     "signals": [
+  //       "Post Mortems",
+  //       "Stack Traces",
+  //       "Reproing Issues",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 2
+  //     "summary": "You discover and communicate the why and how behind issues and trends.",
+  //     "signals": [
+  //       "Post Mortems",
+  //       "Stack Traces",
+  //       "Reproing Issues",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 3
+  //     "summary": "Your investigation skills go beyond talking about the what and why; you go a level deeper by using insights to predict and prevent future issues.",
+  //     "signals": [
+  //       "Post Mortems",
+  //       "Stack Traces",
+  //       "Reproing Issues",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 4
+  //     "summary": "Advocates for and models great quality with proactive actions, and tackles difficult and subtle system issues",
+  //     "signals": [
+  //       "Builds systems so as to eliminate entire classes of programmer error",
+  //       "Focuses the team on quality with regular reminders",
+  //       "Coordinates Watch priorities and projects",
+  //     ],
+  //     "examples": [
+  //       "Added code coverage reporting to iOS CI pipeline",
+  //       "Iterated repeatedly to develop Medium's underlines solution",
+  //       "Defined and oversaw plan for closing Heartbleed vulnerability",
+  //     ],
+  //   }, {
+  //     //Milestone 5
+  //     "summary": "Enables and encourages the entire organization to make quality a central part of the development process",
+  //     "signals": [
+  //       "Defines policies for the engineering org that encourage quality work",
+  //       "Identifies and eliminates single points of failure throughout the organization",
+  //       "Secures time and resources from execs to support great quality",
+  //     ],
+  //     "examples": [
+  //       "Negotiated resources for Fix-It week with exec team",
+  //       "Instituted and ensured success of a 20% time policy",
+  //       "Started The Watch",
+  //     ],
+  //   }],
+  // },
+  // "INITIATIVE": {
+  //   "displayName": "Analyze Metric: Connections",
+  //   "category": "B",
+  //   "description": "Undertanding how all the pieces fit together and how each piece impacts all aspects of a product.",
+  //   "milestones": [{
+  //     //Milestone 1
+  //     "summary": "You are learning how all of your squads features impact user workflows.",
+  //     "signals": [
+  //       "Feature Interactions",
+  //       "Product & System Architecture",
+  //       "Impact & Risk Analysis",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 2
+  //     "summary": "You understand how users and the team will be impacted by various changes and outcomes.",
+  //     "signals": [
+  //       "Feature Interactions",
+  //       "Product & System Architecture",
+  //       "Impact & Risk Analysis",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 3
+  //     "summary": "You help shape how changes and outcomes will fit into the bigger picture and overall success of the product.",
+  //     "signals": [
+  //       "Feature Interactions",
+  //       "Product & System Architecture",
+  //       "Impact & Risk Analysis",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 4
+  //     "summary": "Effects change that has a substantial positive impact on the engineering organization or a major product impact",
+  //     "signals": [
+  //       "Champions and pioneers new technologies to solve new classes of problem",
+  //       "Exemplifies grit and determination in the face of persistent obstacles",
+  //       "Instigates major new features, services, or architectures",
+  //     ],
+  //     "examples": [
+  //       "Created the interviewing rubric and booklet",
+  //       "Implemented and secured support for native login",
+  //       "Migrated medium2 to mono repo and bazel",
+  //     ],
+  //   }, {
+  //     //Milestone 5
+  //     "summary": "Effects change that has a substantial positive impact on the whole company",
+  //     "signals": [
+  //       "Creates a new function to solve systemic issues",
+  //       "Galvanizes the entire company and garners buy in for a new strategy",
+  //       "Changes complex organizational processes",
+  //     ],
+  //     "examples": [
+  //       "Migrated the organization from Holacracy",
+  //       "Built Medium Android prototype and convinced execs to fund it",
+  //       "Convinced leadership and engineering org to move to Medium Lite architecture",
+  //     ],
+  //   }],
+  // },
 
-  "CAREER_DEVELOPMENT": {
-    "displayName": "Drive Metric: Improvement",
-    "category": "C",
-    "description": "Focus on driving improvement for self, squad, chapter, and Hudl.",
-    "milestones": [{
-      //Milestone 1
-      "summary": "You are learning how your role delivers value.",
-      "signals": [
-        "Personal & Professional Development",
-        "QA Projects",
-        "Hudl Work Smarter Learnings",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 2
-      "summary": "You seek to increase the amount of value your role delivers.",
-      "signals": [
-        "Personal & Professional Development",
-        "QA Projects",
-        "Hudl Work Smarter Learnings",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 3
-      "summary": "You are evolving the way your role delivers value and mitigates risk.",
-      "signals": [
-        "Personal & Professional Development",
-        "QA Projects",
-        "Hudl Work Smarter Learnings",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 4
-      "summary": "Manages interactions and processes between groups, promoting best practices and setting a positive example",
-      "signals": [
-        "Manages team transitions smoothly, respecting team and individual needs",
-        "Develops best practices for conflict resolution",
-        "Ensures all group members' roles are meeting their career needs",
-      ],
-      "examples": [
-        "Completed training on situational leadership",
-        "Built a resourcing plan based on company, team, and individual goals",
-        "Prevented regretted attrition with intentional, targeted intervention",
-      ],
-    }, {
-      //Milestone 5
-      "summary": "Supports the development of a signficant part of the engineering org, and widely viewed as a trusted advisor",
-      "signals": [
-        "Supports and develops senior leaders",
-        "Identified leadership training opportunities for senior leadership",
-        "Pushes everyone to be as good as they can be, with empathy",
-      ],
-      "examples": [
-        "Provided coaching to group leads",
-        "Devised Pathwise curriculum for group leads",
-        "Advocated to execs for engineer development resources and programs",
-      ],
-    }],
-  },
+  // "CAREER_DEVELOPMENT": {
+  //   "displayName": "Drive Metric: Improvement",
+  //   "category": "C",
+  //   "description": "Focus on driving improvement for self, squad, chapter, and Hudl.",
+  //   "milestones": [{
+  //     //Milestone 1
+  //     "summary": "You are learning how your role delivers value.",
+  //     "signals": [
+  //       "Personal & Professional Development",
+  //       "QA Projects",
+  //       "Hudl Work Smarter Learnings",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 2
+  //     "summary": "You seek to increase the amount of value your role delivers.",
+  //     "signals": [
+  //       "Personal & Professional Development",
+  //       "QA Projects",
+  //       "Hudl Work Smarter Learnings",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 3
+  //     "summary": "You are evolving the way your role delivers value and mitigates risk.",
+  //     "signals": [
+  //       "Personal & Professional Development",
+  //       "QA Projects",
+  //       "Hudl Work Smarter Learnings",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 4
+  //     "summary": "Manages interactions and processes between groups, promoting best practices and setting a positive example",
+  //     "signals": [
+  //       "Manages team transitions smoothly, respecting team and individual needs",
+  //       "Develops best practices for conflict resolution",
+  //       "Ensures all group members' roles are meeting their career needs",
+  //     ],
+  //     "examples": [
+  //       "Completed training on situational leadership",
+  //       "Built a resourcing plan based on company, team, and individual goals",
+  //       "Prevented regretted attrition with intentional, targeted intervention",
+  //     ],
+  //   }, {
+  //     //Milestone 5
+  //     "summary": "Supports the development of a signficant part of the engineering org, and widely viewed as a trusted advisor",
+  //     "signals": [
+  //       "Supports and develops senior leaders",
+  //       "Identified leadership training opportunities for senior leadership",
+  //       "Pushes everyone to be as good as they can be, with empathy",
+  //     ],
+  //     "examples": [
+  //       "Provided coaching to group leads",
+  //       "Devised Pathwise curriculum for group leads",
+  //       "Advocated to execs for engineer development resources and programs",
+  //     ],
+  //   }],
+  // },
 
-  "ORG_DESIGN": {
-    "displayName": "Drive Metric: Challenge",
-    "category": "C",
-    "description": "Challenging the status quo with the end goal of improvement.",
-    "milestones": [{
-      //Milestone 1
-      "summary": "You are having conversations that help yourself and others understand issues and the status of quality.",
-      "signals": [
-        "Code Reviews",
-        "Design Reviews",
-        "Release Strategy",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 2
-      "summary": "You challenge squad quality while focusing on prevention and efficiency.",
-      "signals": [
-        "Code Reviews",
-        "Design Reviews",
-        "Release Strategy",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 3
-      "summary": "You are strategically challenging process and direction.",
-      "signals": [
-        "Code Reviews",
-        "Design Reviews",
-        "Release Strategy",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 4
-      "summary": "Thinks deeply about organizational issues and identifies hidden dynamics that contribute to them",
-      "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
-      ],
-      "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
-      ],
-    }, {
-      //Milestone 5
-      "summary": "Leads initiatives to address issues stemming from hidden dynamics and company norms",
-      "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
-      ],
-      "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
-      ],
-    }],
-  },
+  // "ORG_DESIGN": {
+  //   "displayName": "Drive Metric: Challenge",
+  //   "category": "C",
+  //   "description": "Challenging the status quo with the end goal of improvement.",
+  //   "milestones": [{
+  //     //Milestone 1
+  //     "summary": "You are having conversations that help yourself and others understand issues and the status of quality.",
+  //     "signals": [
+  //       "Code Reviews",
+  //       "Design Reviews",
+  //       "Release Strategy",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 2
+  //     "summary": "You challenge squad quality while focusing on prevention and efficiency.",
+  //     "signals": [
+  //       "Code Reviews",
+  //       "Design Reviews",
+  //       "Release Strategy",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 3
+  //     "summary": "You are strategically challenging process and direction.",
+  //     "signals": [
+  //       "Code Reviews",
+  //       "Design Reviews",
+  //       "Release Strategy",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 4
+  //     "summary": "Thinks deeply about organizational issues and identifies hidden dynamics that contribute to them",
+  //     "signals": [
+  //       "Example Behavior",
+  //       "Example Behavior",
+  //       "Example Behavior",
+  //     ],
+  //     "examples": [
+  //       "Example Task",
+  //       "Example Task",
+  //       "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 5
+  //     "summary": "Leads initiatives to address issues stemming from hidden dynamics and company norms",
+  //     "signals": [
+  //       "Example Behavior",
+  //       "Example Behavior",
+  //       "Example Behavior",
+  //     ],
+  //     "examples": [
+  //       "Example Task",
+  //       "Example Task",
+  //       "Example Task",
+  //     ],
+  //   }],
+  // },
 
-  "WELLBEING": {
-    "displayName": "Drive Metric: Value",
-    "category": "C",
-    "description": "Your outcomes drive yourself, squad, chapter, and Hudl forward.",
-    "milestones": [{
-      //Milestone 1
-      "summary": "You are leveling up personally and starting to drive change on the squad level.",
-      "signals": [
-        "Please work with your Team Lead to best capture how your outcomes are adding value.",
-        // "Example Behavior",
-        // "Example Behavior",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 2
-      "summary": "You are implementing change on the squad level and you are starting to have an impact outside of the squad.",
-      "signals": [
-        "Please work with your Team Lead to best capture how your outcomes are adding value.",
-        // "Example Behavior",
-        // "Example Behavior",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 3
-      "summary": "You are driving change outside of the squad and your impact is being felt on the chapter level.",
-      "signals": [
-        "Please work with your Team Lead to best capture how your outcomes are adding value.",
-        // "Example Behavior",
-        // "Example Behavior",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 4
-      "summary": "Advocates for the needs of teams and group members, and proactively works to calm the organization",
-      "signals": [
-        "Ensures team environments are safe and inclusive, proactively",
-        "Grounds group member anxieties in reality",
-        "Tracks team retention actively and proposes solutions to strengthen it",
-      ],
-      "examples": [
-        "Relieved org tension around product direction by providing extra context",
-        "Encouraged group members to focus on what they can control",
-        "Guided people through complex organizational change",
-      ],
-    }, {
-      //Milestone 5
-      "summary": "Manages narratives, channels negativity into inspiration and motivation, and protects the entire team",
-      "signals": [
-        "Recognizes and points out narratives when appropriate",
-        "Works to reshape narratives from victimization to ownership",
-        "Increases the psychological safety of the entire team",
-      ],
-      "examples": [
-        "Converted group member from a problem haver to a problem solver",
-        "Challenged false narrative and redirected to compassion and empathy",
-        "Cultivated and championed a culture of empathy within the entire team",
-      ],
-    }],
-  },
+  // "WELLBEING": {
+  //   "displayName": "Drive Metric: Value",
+  //   "category": "C",
+  //   "description": "Your outcomes drive yourself, squad, chapter, and Hudl forward.",
+  //   "milestones": [{
+  //     //Milestone 1
+  //     "summary": "You are leveling up personally and starting to drive change on the squad level.",
+  //     "signals": [
+  //       "Please work with your Team Lead to best capture how your outcomes are adding value.",
+  //       // "Example Behavior",
+  //       // "Example Behavior",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 2
+  //     "summary": "You are implementing change on the squad level and you are starting to have an impact outside of the squad.",
+  //     "signals": [
+  //       "Please work with your Team Lead to best capture how your outcomes are adding value.",
+  //       // "Example Behavior",
+  //       // "Example Behavior",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 3
+  //     "summary": "You are driving change outside of the squad and your impact is being felt on the chapter level.",
+  //     "signals": [
+  //       "Please work with your Team Lead to best capture how your outcomes are adding value.",
+  //       // "Example Behavior",
+  //       // "Example Behavior",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 4
+  //     "summary": "Advocates for the needs of teams and group members, and proactively works to calm the organization",
+  //     "signals": [
+  //       "Ensures team environments are safe and inclusive, proactively",
+  //       "Grounds group member anxieties in reality",
+  //       "Tracks team retention actively and proposes solutions to strengthen it",
+  //     ],
+  //     "examples": [
+  //       "Relieved org tension around product direction by providing extra context",
+  //       "Encouraged group members to focus on what they can control",
+  //       "Guided people through complex organizational change",
+  //     ],
+  //   }, {
+  //     //Milestone 5
+  //     "summary": "Manages narratives, channels negativity into inspiration and motivation, and protects the entire team",
+  //     "signals": [
+  //       "Recognizes and points out narratives when appropriate",
+  //       "Works to reshape narratives from victimization to ownership",
+  //       "Increases the psychological safety of the entire team",
+  //     ],
+  //     "examples": [
+  //       "Converted group member from a problem haver to a problem solver",
+  //       "Challenged false narrative and redirected to compassion and empathy",
+  //       "Cultivated and championed a culture of empathy within the entire team",
+  //     ],
+  //   }],
+  // },
 
-  "ACCOMPLISHMENT": {
-    "displayName": "Drive Metric: Advocate",
-    "category": "C",
-    "description": "Inspires a better understanding and adoption of quality best practices.",
-    "milestones": [{
-      //Milestone 1
-      "summary": "You are learning quality best practices and are starting to share that information with your squad.",
-      "signals": [
-        "Giving presentations",
-        "Creating blog posts",
-        "Increasing knowledge within the Chapter",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 2
-      "summary": "You are leveling up others and implementing quality best practices on the squad level.",
-      "signals": [
-        "Giving presentations",
-        "Creating blog posts",
-        "Increasing knowledge within the Chapter",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 3
-      "summary": "You are coaching and changing others mindsets around quality outside of the squad.",
-      "signals": [
-        "Giving presentations",
-        "Creating blog posts",
-        "Increasing knowledge within the Chapter",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 4
-      "summary": "Mediates escalated situations, empowers underperforming teams, and resolves conflict",
-      "signals": [
-        "Recognizes heightened situations and toxic or aggressive interactions",
-        "Inserts themself into conflict where appropriate to calm and mediate",
-        "Encourages open dialog and builds trust between parties in conflict",
-      ],
-      "examples": [
-        "Empowered a team to drive forward amidst uncertainty",
-        "Protected team from externalities so they could focus on goals",
-        "Mediated sit-down between team members to address tension",
-      ],
-    }, {
-      //Milestone 5
-      "summary": "Resolves complex organizational dysfunction, or persistent conflict at senior levels",
-      "signals": [
-        "Takes control of dysfunctional teams to organise chaos",
-        "Repairs broken team dynamics and builds harmony",
-        "Presides over a well-oiled team of teams",
-      ],
-      "examples": [
-        "Turned around the performance of a problematic team",
-        "De-escalated serious tensions between teams",
-        "Rebuilt trust between senior team leads",
-      ],
-    }],
-  },
+  // "ACCOMPLISHMENT": {
+  //   "displayName": "Drive Metric: Advocate",
+  //   "category": "C",
+  //   "description": "Inspires a better understanding and adoption of quality best practices.",
+  //   "milestones": [{
+  //     //Milestone 1
+  //     "summary": "You are learning quality best practices and are starting to share that information with your squad.",
+  //     "signals": [
+  //       "Giving presentations",
+  //       "Creating blog posts",
+  //       "Increasing knowledge within the Chapter",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 2
+  //     "summary": "You are leveling up others and implementing quality best practices on the squad level.",
+  //     "signals": [
+  //       "Giving presentations",
+  //       "Creating blog posts",
+  //       "Increasing knowledge within the Chapter",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 3
+  //     "summary": "You are coaching and changing others mindsets around quality outside of the squad.",
+  //     "signals": [
+  //       "Giving presentations",
+  //       "Creating blog posts",
+  //       "Increasing knowledge within the Chapter",
+  //     ],
+  //     "examples": [
+  //       // "Example Task",
+  //       // "Example Task",
+  //       // "Example Task",
+  //     ],
+  //   }, {
+  //     //Milestone 4
+  //     "summary": "Mediates escalated situations, empowers underperforming teams, and resolves conflict",
+  //     "signals": [
+  //       "Recognizes heightened situations and toxic or aggressive interactions",
+  //       "Inserts themself into conflict where appropriate to calm and mediate",
+  //       "Encourages open dialog and builds trust between parties in conflict",
+  //     ],
+  //     "examples": [
+  //       "Empowered a team to drive forward amidst uncertainty",
+  //       "Protected team from externalities so they could focus on goals",
+  //       "Mediated sit-down between team members to address tension",
+  //     ],
+  //   }, {
+  //     //Milestone 5
+  //     "summary": "Resolves complex organizational dysfunction, or persistent conflict at senior levels",
+  //     "signals": [
+  //       "Takes control of dysfunctional teams to organise chaos",
+  //       "Repairs broken team dynamics and builds harmony",
+  //       "Presides over a well-oiled team of teams",
+  //     ],
+  //     "examples": [
+  //       "Turned around the performance of a problematic team",
+  //       "De-escalated serious tensions between teams",
+  //       "Rebuilt trust between senior team leads",
+  //     ],
+  //   }],
+  // },
 
  /* "MENTORSHIP": {
     "displayName": "Relationships",
@@ -1254,15 +1255,14 @@ export const totalPointsFromMilestoneMap = (milestoneMap: MilestoneMap): number 
 
 export const categoryColorScale = d3.scaleOrdinal()
   .domain(categoryIds)
-  .range(['#009ce3', '#5f7284', '#ff6300', '#394551'])
+  .range(['#c5c5c5','#5f7284','#009ce3','#2468a0','#394551','#ff6300'])
 
 export const titles = [
-  {label: 'QA', minPoints: 0, maxPoints: 90},
-  {label: 'QA II', minPoints: 91, maxPoints: 92},
-  {label: 'Senior QA/Team Lead', minPoints: 93, maxPoints: 94},
-  {label: 'Quality Lead', minPoints: 95, maxPoints: 96},
-  {label: 'Principal QA', minPoints: 97},
-  {label: 'QA Manager', minPoints: 98}
+  {label: 'Quality Analyst Speciallist', minPoints:0, maxPoints: 7},
+  {label: 'Quality Assurance Engineer', minPoints: 0, maxPoints: 10},
+  {label: 'Senior Quality Assurance Engineer', minPoints: 91, maxPoints: 27},
+  {label: 'QA Manager', minPoints: 27},
+  {label: 'Lead QAE', minPoints: 95, maxPoints: 28}
 ]
 
 export const eligibleTitles = (milestoneMap: MilestoneMap): string[] => {
