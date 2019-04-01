@@ -82,7 +82,7 @@ export const tracks: Tracks = {
   "MOBILE": {
     "displayName": "Self",
     "category": "A",
-    "description": "Strategies and approaches used to test an application to ensure it behaves and looks as expected.",
+    "description": "Focus on professional development and evolution of hard and soft skills.",
     "milestones": [{
       // //Milestone 0
       // "summary": "Professional Development is not a focus and you have no outcomes to show personal growth",
@@ -97,9 +97,9 @@ export const tracks: Tracks = {
       //   // "Example Task",
       // ],
       //Milestone 1
-      "summary": "You are learning Hudl’s test methods and tools and have started to implement them into your testing.",
+      "summary": "Your focus on professional development is in the learning and or low priority stages. Your personal growth outcomes are largely only impacting yourself.",
       "signals": [
-        // "Automation",
+        "Personal growth",
         // "Test Bashes",
         // "Exploratory Testing",
       ],
@@ -110,9 +110,9 @@ export const tracks: Tracks = {
       ],
       //Milestone 2
     }, {
-      "summary": "You know how and when to use the right testing method and tools during testing.",
+      "summary": "You are going beyond the basics of leveling up personally and are starting to see outcomes impacting others as a results of focusing on professional development.",
       "signals": [
-        // "Automation",
+        "Profeesional growth that impacts others",
         // "Test Bashes",
         // "Exploratory Testing",
       ],
@@ -123,9 +123,9 @@ export const tracks: Tracks = {
       ],
       //Milestone 3
     }, {
-      "summary": "You are creating and coaching others on how to best use specific testing methods and tools.",
+      "summary": "Your outcomes from leveling up personally are driving change beyond yourself and your personal growth is directly impacting Hudl's success.",
       "signals": [
-        // "Automation",
+        "Professional growth that helps other succeed",
         // "Test Bashes",
         // "Exploratory Testing",
       ],
@@ -154,14 +154,14 @@ export const tracks: Tracks = {
   "WEB_CLIENT": {
     "displayName": "Squad",
     "category": "B",
-    "description": "Ensuring quality earlier in the product lifecycle.",
+    "description": "A team comprised of Engineers, Designers, QAs and Scrum Masters that focus on delivering outcomes for a specific Tribe level project.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are starting to identify and documenting risk for features.",
+      "summary": "You outcomes are a reflection of the day to day expectations. Your impact is seen by participating in squad meetings, tasks, and sprint objectives.",
       "signals": [
-        "Test Plans",
-        "Acceptance Criteria",
-        "Design Reviews",
+        "Participant: You complete tasks or objectives that you volunteered for or that are assigned to you. You have little to no ownership of the direction or strategy of the project.",
+        // "Acceptance Criteria",
+        // "Design Reviews",
       ],
       "examples": [
         // "Example Task",
@@ -170,11 +170,11 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 2
-      "summary": "You are starting to implement multiple ways of introducing quality earlier into the product lifecycle.",
+      "summary": "You are going beyond the day to day and are either helping contribute or leading squad level initiatives. You are a key player in the success of the squad and outcomes produced.",
       "signals": [
-        "Test Plans",
-        "Acceptance Criteria",
-        "Design Reviews",
+        "Contributor: You help contribute to the direction and or strategy of the project. You are a key player responsible for the outcomes of the project.",
+        // "Acceptance Criteria",
+        // "Design Reviews",
       ],
       "examples": [
         // "Example Task",
@@ -183,11 +183,11 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "You are mitigating risk and introducing quality in all aspects of the life cycle.",
+      "summary": "You are viewed as a leader on the squad and have successfully lead projects and or initiatives that has directly helped the squad achieve success.",
       "signals": [
-        "Test Plans",
-        "Acceptance Criteria",
-        "Design Reviews",
+        "Leader: You are the owner of a project and are directly accountable for the strategy, outcomes and success of the project.",
+        // "Acceptance Criteria",
+        // "Design Reviews",
       ],
       "examples": [
         // "Example Task",
@@ -226,14 +226,14 @@ export const tracks: Tracks = {
   "FOUNDATIONS": {
     "displayName": "Tribe",
     "category": "C",
-    "description": "Knowledge and insight to the different software, platforms and business levels that make up a product.",
+    "description": "Focused grouping of squads that deliver outcomes unique to products and or features of Hudl.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are learning how your features work on the product level.",
+      "summary": "You help participate in Tribe level projects or tasks. You impact is largely tied to helping complete projects and or tasks assigned by Tribe Leadership.",
       "signals": [
-        "Integration Testing",
-        "Tribe Product & Feaure Knowledge",
-        "Hudl Tools & Platforms Expertise",
+        // "Integration Testing",
+        // "Tribe Product & Feaure Knowledge",
+        // "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
         // "Example Task",
@@ -242,11 +242,11 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 2
-      "summary": "You are able to understand and mitigate risk on the UI and API layer of your product.",
+      "summary": "You are either helping contribute or leading Tribe level projects and initiatives that will directly impact other Tribe members. Your outcomes largely benefit Tribe Chapter members compared to directly impacting the the success of Tribe Goals/Milestones.",
       "signals": [
-        "Integration Testing",
-        "Tribe Product & Feaure Knowledge",
-        "Hudl Tools & Platforms Expertise",
+        // "Integration Testing",
+        // "Tribe Product & Feaure Knowledge",
+        // "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
         // "Example Task",
@@ -255,11 +255,11 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "You know your squad's system architecture and understand the key components that make up your feature or platform on the business and product level.",
+      "summary": "You are viewed as a leader on the Tribe and have successfully lead projects and or initiatives that have both directly benefited the Chapter Tribe but have also benefited the Tribe Goals/Milestones.",
       "signals": [
-        "Integration Testing",
-        "Tribe Product & Feaure Knowledge",
-        "Hudl Tools & Platforms Expertise",
+        // "Integration Testing",
+        // "Tribe Product & Feaure Knowledge",
+        // "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
         // "Example Task",
@@ -298,14 +298,14 @@ export const tracks: Tracks = {
   "SERVERS": {
     "displayName": "Chapter",
     "category": "D",
-    "description": "Understanding and adoption of user workflows, stories, and insights to product usage.",
+    "description": "Product Team departments comprised of individuals with specific responsibilities and accountabilities.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are learning about your squad's users and how they use the product stack.",
+      "summary": "You participate in group Chapter Level projects or tasks. You impact is largely tied to helping complete projects and or tasks lead by others, created by Tribe Leadership or Themes.",
       "signals": [
-        "User Workflows",
-        "Real World Testing",
-        "Understanding the customers wants vs needs",
+        // "User Workflows",
+        // "Real World Testing",
+        // "Understanding the customers wants vs needs",
       ],
       "examples": [
         // "Example Task",
@@ -314,11 +314,11 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 2
-      "summary": "You are introducing insights from user workflows into your testing approach and methods.",
+      "summary": "You have successfully lead or co-lead a successfully rollout of a chapter project. You are directly accountable for the outcomes of the project. The value of your project is universally understood and measurable.",
       "signals": [
-        "User Workflows",
-        "Real World Testing",
-        "Understanding the customers wants vs needs",
+        // "User Workflows",
+        // "Real World Testing",
+        // "Understanding the customers wants vs needs",
       ],
       "examples": [
         // "Example Task",
@@ -327,11 +327,11 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "You evolve and coach others understanding and testing approach based on your user knowledge.",
+      "summary": "You have successfully owned and trained the entire Chapter on various projects. Those projects have directly benefited all Chapter members and have helped evolved the Chapter to the next level.",
       "signals": [
-        "User Workflows",
-        "Real World Testing",
-        "Understanding the customers wants vs needs",
+        // "User Workflows",
+        // "Real World Testing",
+        // "Understanding the customers wants vs needs",
       ],
       "examples": [
         // "Example Task",
@@ -370,14 +370,14 @@ export const tracks: Tracks = {
   "PROJECT_MANAGEMENT": {
     "displayName": "Platform/App",
     "category": "E",
-    "description": "Ability to understand insights relating to products and users.",
+    "description": "Focused part of Hudl's product stack that contains unique technology, frameworks and user workflows.",
     "milestones": [{
       //Milestone 1
       "summary": "You are learning and starting to use Hudl’s analysis tools to evaluate and guide your decisions.",
       "signals": [
-        "Feature Usage",
-        "User Insights",
-        "Feaure & App Peformance Health"
+        // "Feature Usage",
+        // "User Insights",
+        // "Feaure & App Peformance Health"
       ],
       "examples": [
         // "Example Task",
@@ -388,9 +388,9 @@ export const tracks: Tracks = {
       //Milestone 2
       "summary": "You utilize data from multiple available sources to draw conclusions about the quality of your product.",
       "signals": [
-        "Feature Usage",
-        "User Insights",
-        "Feaure & App Peformance Health"
+        // "Feature Usage",
+        // "User Insights",
+        // "Feaure & App Peformance Health"
       ],
       "examples": [
         // "Example Task",
@@ -401,9 +401,9 @@ export const tracks: Tracks = {
       //Milestone 3
       "summary": "You are able to leverage different sources of data to answer complex questions about product and user trends.",
       "signals": [
-        "Feature Usage",
-        "User Insights",
-        "Feaure & App Peformance Health"
+        // "Feature Usage",
+        // "User Insights",
+        // "Feaure & App Peformance Health"
       ],
       "examples": [
         // "Example Task",
@@ -445,11 +445,11 @@ export const tracks: Tracks = {
     "description": "Shares the right amount of information with the right people, at the right time, and reacts effectively.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are able to understand risks and then prioritize user impact in conversations.",
+      "summary": "You have successfully helped others learn new skills, tools, products or processes.",
       "signals": [
-        "Feature & User Dashboards",
-        "Quality Indicators",
-        "Tracking & Prioritizing Quality Debt",
+        // "Feature & User Dashboards",
+        // "Quality Indicators",
+        // "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
         // "Example Task",
@@ -458,11 +458,11 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 2
-      "summary": "You understand the risk and impact of changes to your product/feature and communicate risk(s) to your squad.",
+      "summary": "You are impacting individuals personal and or career growth. You successfully embody Hudl’s Management philosophy and are viewed as a high performing chapter manager.",
       "signals": [
-        "Feature & User Dashboards",
-        "Quality Indicators",
-        "Tracking & Prioritizing Quality Debt",
+        // "Feature & User Dashboards",
+        // "Quality Indicators",
+        // "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
         // "Example Task",
@@ -471,11 +471,11 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "You identify and communicate high-risk areas for projects and features to help drive strategy and direction.",
+      "summary": "You are evolving Hudl’s management tools, process, philosophy and or role. You are mentoring and training other Hudlies to better lead others.",
       "signals": [
-        "Feature & User Dashboards",
-        "Quality Indicators",
-        "Tracking & Prioritizing Quality Debt",
+        // "Feature & User Dashboards",
+        // "Quality Indicators",
+        // "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
         // "Example Task",
@@ -1255,7 +1255,7 @@ export const totalPointsFromMilestoneMap = (milestoneMap: MilestoneMap): number 
 
 export const categoryColorScale = d3.scaleOrdinal()
   .domain(categoryIds)
-  .range(['#c5c5c5','#5f7284','#009ce3','#2468a0','#394551','#ff6300'])
+  .range(['#009ce3','#2468a0','#5f7284','#394551','#c5c5c5','#ff6300'])
 
 export const titles = [
   {label: 'Quality Analyst Speciallist', minPoints:0, maxPoints: 7},
