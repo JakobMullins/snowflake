@@ -103,9 +103,7 @@ export const tracks: Tracks = {
         "Exploratory Testing",
       ],
       "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
       ],
       //Milestone 2
     }, {
@@ -116,7 +114,7 @@ export const tracks: Tracks = {
         "Exploratory Testing",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -129,7 +127,7 @@ export const tracks: Tracks = {
         "Exploratory Testing",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -163,7 +161,7 @@ export const tracks: Tracks = {
         "Design Reviews",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -176,7 +174,7 @@ export const tracks: Tracks = {
         "Design Reviews",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -189,7 +187,7 @@ export const tracks: Tracks = {
         "Design Reviews",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -235,7 +233,7 @@ export const tracks: Tracks = {
         "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -248,7 +246,7 @@ export const tracks: Tracks = {
         "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -261,7 +259,7 @@ export const tracks: Tracks = {
         "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -307,7 +305,7 @@ export const tracks: Tracks = {
         "Understanding the customers wants vs needs",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -320,7 +318,7 @@ export const tracks: Tracks = {
         "Understanding the customers wants vs needs",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -333,7 +331,7 @@ export const tracks: Tracks = {
         "Understanding the customers wants vs needs",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -372,14 +370,13 @@ export const tracks: Tracks = {
     "description": "Ability to understand insights relating to products and users.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are learning and starting to use Hudl’s analysis tools to evaluate and guide your decisions.",
       "signals": [
         "Feature Usage",
         "User Insights",
         "Feaure & App Peformance Health"
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -392,7 +389,7 @@ export const tracks: Tracks = {
         "Feaure & App Peformance Health"
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -405,7 +402,7 @@ export const tracks: Tracks = {
         "Feaure & App Peformance Health"
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -451,7 +448,7 @@ export const tracks: Tracks = {
         "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -464,7 +461,7 @@ export const tracks: Tracks = {
         "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -477,7 +474,7 @@ export const tracks: Tracks = {
         "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -523,7 +520,7 @@ export const tracks: Tracks = {
         "Reproing Issues",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -536,7 +533,7 @@ export const tracks: Tracks = {
         "Reproing Issues",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -549,7 +546,7 @@ export const tracks: Tracks = {
         "Reproing Issues",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -594,7 +591,7 @@ export const tracks: Tracks = {
         "Impact & Risk Analysis",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -607,7 +604,7 @@ export const tracks: Tracks = {
         "Impact & Risk Analysis",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -620,7 +617,7 @@ export const tracks: Tracks = {
         "Impact & Risk Analysis",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -666,7 +663,7 @@ export const tracks: Tracks = {
         "Hudl Work Smarter Learnings",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -679,7 +676,7 @@ export const tracks: Tracks = {
         "Hudl Work Smarter Learnings",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -692,7 +689,7 @@ export const tracks: Tracks = {
         "Hudl Work Smarter Learnings",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -738,7 +735,7 @@ export const tracks: Tracks = {
         "Release Strategy",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -751,7 +748,7 @@ export const tracks: Tracks = {
         "Release Strategy",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -764,7 +761,7 @@ export const tracks: Tracks = {
         "Release Strategy",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -810,7 +807,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -823,7 +820,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -836,7 +833,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -882,7 +879,7 @@ export const tracks: Tracks = {
         "Increasing knowledge within the Chapter",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -895,7 +892,7 @@ export const tracks: Tracks = {
         "Increasing knowledge within the Chapter",
       ],
       "examples": [
-        // "Example Task",
+        "Mastery: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -908,7 +905,7 @@ export const tracks: Tracks = {
         "Increasing knowledge within the Chapter",
       ],
       "examples": [
-        // "Example Task",
+        "Coaching: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
