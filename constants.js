@@ -103,9 +103,7 @@ export const tracks: Tracks = {
         "Exploratory Testing",
       ],
       "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
       ],
       //Milestone 2
     }, {
@@ -116,7 +114,7 @@ export const tracks: Tracks = {
         "Exploratory Testing",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -129,7 +127,7 @@ export const tracks: Tracks = {
         "Exploratory Testing",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -163,7 +161,7 @@ export const tracks: Tracks = {
         "Design Reviews",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -176,20 +174,20 @@ export const tracks: Tracks = {
         "Design Reviews",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
     }, {
       //Milestone 3
-      "summary": "You are mitigating risk and introducing quality in all aspects of the life cycle.",
+      "summary": "You use your various methods of preventing risk to coach others on how to mitigate risk and the different ways of introducing quality earlier in the product life cycle.",
       "signals": [
         "Test Plans",
         "Acceptance Criteria",
         "Design Reviews",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -235,25 +233,12 @@ export const tracks: Tracks = {
         "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
     }, {
       //Milestone 2
-      "summary": "You are able to understand and mitigate risk on the UI and API layer of your product.",
-      "signals": [
-        "Integration Testing",
-        "Tribe Product & Feaure Knowledge",
-        "Hudl Tools & Platforms Expertise",
-      ],
-      "examples": [
-        // "Example Task",
-        // "Example Task",
-        // "Example Task",
-      ],
-    }, {
-      //Milestone 3
       "summary": "You know your squad's system architecture and understand the key components that make up your feature or platform on the business and product level.",
       "signals": [
         "Integration Testing",
@@ -261,7 +246,20 @@ export const tracks: Tracks = {
         "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
+        // "Example Task",
+      ],
+    }, {
+      //Milestone 3
+      "summary": "You coach others on how to better understand your products key features, workflows and technical aspects that make up the product. You are leveraging your product stack knowledge to enhance quality.",
+      "signals": [
+        "Integration Testing",
+        "Tribe Product & Feaure Knowledge",
+        "Hudl Tools & Platforms Expertise",
+      ],
+      "examples": [
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -307,7 +305,7 @@ export const tracks: Tracks = {
         "Understanding the customers wants vs needs",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -320,7 +318,7 @@ export const tracks: Tracks = {
         "Understanding the customers wants vs needs",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -333,7 +331,7 @@ export const tracks: Tracks = {
         "Understanding the customers wants vs needs",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -372,14 +370,13 @@ export const tracks: Tracks = {
     "description": "Ability to understand insights relating to products and users.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are learning and starting to use Hudl’s analysis tools to evaluate and guide your decisions.",
       "signals": [
         "Feature Usage",
         "User Insights",
         "Feaure & App Peformance Health"
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -392,20 +389,20 @@ export const tracks: Tracks = {
         "Feaure & App Peformance Health"
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
     }, {
       //Milestone 3
-      "summary": "You are able to leverage different sources of data to answer complex questions about product and user trends.",
+      "summary": "You leverage different sournces of data to answer complex questions about product and user trends. You use that data in conversations to drive change and a deeper level of understanding relating to the product.",
       "signals": [
         "Feature Usage",
         "User Insights",
         "Feaure & App Peformance Health"
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -444,14 +441,14 @@ export const tracks: Tracks = {
     "description": "Shares the right amount of information with the right people, at the right time, and reacts effectively.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are able to understand risks and then prioritize user impact in conversations.",
+      "summary": "You are learning about the different types of risk and how to prirotizie that risk based on user impact in different conversations and meetings.",
       "signals": [
         "Feature & User Dashboards",
         "Quality Indicators",
         "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -464,7 +461,7 @@ export const tracks: Tracks = {
         "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -477,7 +474,7 @@ export const tracks: Tracks = {
         "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -523,7 +520,7 @@ export const tracks: Tracks = {
         "Reproing Issues",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -536,20 +533,20 @@ export const tracks: Tracks = {
         "Reproing Issues",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
     }, {
       //Milestone 3
-      "summary": "Your investigation skills go beyond talking about the what and why; you go a level deeper by using insights to predict and prevent future issues.",
+      "summary": "Your investigation skills go beyond talking about the what and why; you go a level deeper by using insights to predict and prevent future issues. You then use these insights to coach and help others better understand the root cause for risks, issues or trends.",
       "signals": [
         "Post Mortems",
         "Stack Traces",
         "Reproing Issues",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -594,7 +591,7 @@ export const tracks: Tracks = {
         "Impact & Risk Analysis",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -607,7 +604,7 @@ export const tracks: Tracks = {
         "Impact & Risk Analysis",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -620,7 +617,7 @@ export const tracks: Tracks = {
         "Impact & Risk Analysis",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -666,7 +663,7 @@ export const tracks: Tracks = {
         "Hudl Work Smarter Learnings",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -679,7 +676,7 @@ export const tracks: Tracks = {
         "Hudl Work Smarter Learnings",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -692,7 +689,7 @@ export const tracks: Tracks = {
         "Hudl Work Smarter Learnings",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -738,7 +735,7 @@ export const tracks: Tracks = {
         "Release Strategy",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -751,20 +748,20 @@ export const tracks: Tracks = {
         "Release Strategy",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
     }, {
       //Milestone 3
-      "summary": "You are strategically challenging process and direction.",
+      "summary": "You are stragically challenging process and direction by leveling up others mindsets regarding quality best pratices and risk mitigation.",
       "signals": [
         "Code Reviews",
         "Design Reviews",
         "Release Strategy",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -810,7 +807,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -823,7 +820,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -836,7 +833,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -882,7 +879,7 @@ export const tracks: Tracks = {
         "Increasing knowledge within the Chapter",
       ],
       "examples": [
-        // "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -895,7 +892,7 @@ export const tracks: Tracks = {
         "Increasing knowledge within the Chapter",
       ],
       "examples": [
-        // "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
         // "Example Task",
         // "Example Task",
       ],
@@ -908,7 +905,7 @@ export const tracks: Tracks = {
         "Increasing knowledge within the Chapter",
       ],
       "examples": [
-        // "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
         // "Example Task",
         // "Example Task",
       ],
@@ -941,48 +938,48 @@ export const tracks: Tracks = {
     }],
   },
 
- /* "MENTORSHIP": {
-    "displayName": "Relationships",
+  "MENTORSHIP": {
+    "displayName": "Test Metric",
     "category": "D",
-    "description": "Building relationships that are meaningful",
+    "description": "You drive quality from start to finish for any product by leveraging multiple testing approaches and methods. You mitigate risk by efficiently testing against different levels in the product stack.  Your testing approach and strategy is built around understanding users common workflows and stories. You help move testing left by focusing on prevention while increasing efficiency and confidence.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are building relationships that are building confidence and trust.",
+      "summary": "You are learning about testing strategies and are starting to introduce multiple methods into your testing approach. You document your test cases, strategy, and results and share that information with the team. You are familiar and comfortable with Hudl’s internal tools and independently deploying code to production. You are learning who your users are and applying user knowledge in your testing.",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 2
-      "summary": "You are leveraging relationships to help achieve successful outcomes",
+      "summary": "You ensure quality within different levels of the product by knowing when and how to best leverage different testing methods and tools. You lead testing efforts by working closely with the other roles on your squad. Your testing approach is a reflection of knowing how to think like your users. You are introducing process or methods to help find defects early in the development lifecycle.",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 3
-      "summary": "You build and use relationships that help get things done faster and better benefiting the Chapter and or Hudl",
+      "summary": "Your entire testing approach is focused around mitigating risk early in the development lifecycle. You prevent defects by leveraging past experience and knowledge. You coach others on how to improve quality earlier in the product life cycle. You have a deep knowledge of your product system architecture and know the key components that make up your feature or platform which leads to a higher level of quality.",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 4
@@ -1014,47 +1011,47 @@ export const tracks: Tracks = {
   },
 
   "EVANGELISM": {
-    "displayName": "Impact",
+    "displayName": "Analyze Metric",
     "category": "D",
-    "description": "Value added from impact and outcomes",
+    "description": "You evaluate user and feature information from multiple sources to help understand and mitigate risk. You effectively report your findings to help guide product direction and strategy. You are able to dive into the different levels of a product and feature to understand the cause and effect for issues and trends. You understand how all the pieces fit into the bigger picture and overall success of the product.",
     "milestones": [{
       //Milestone 1
-      "summary": "Your impact is seen on the personal and team level",
+      "summary": "You are learning about Hudl’s analysis tools and methods and are starting to use those tools to evaluate and guide your decisions. You are beginning to identify the root cause behind issues and trends. You use data to better understand feature usage and apply that insight to your testing approach and squad discussions. You can assess the user impact of issues and prioritize accordingly. You understand the importance and role each feature plays in your users workflows.",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 2
-      "summary": "Your impact is felt on the immediate team and starting to make an impact on others outside of your team",
+      "summary": "You utilize data from multiple available sources to draw conclusions about the quality of your product. You discover and communicate the why and how behind issues and trends. You run ongoing analysis relating to the usage and health of your products. You understand the impact of changes to your product/feature and communicate risk(s) to your squad.  You bring these conclusions to planning discussions to help guide the direction and overall success of the product. You understand how all the pieces of your team's products and process fit into the bigger picture and the overall success of the squad.",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 3
-      "summary": "Your impact is felt across the Chapter and Hudl",
+      "summary": "You are able to pull insights from many different sources of data to answer complex questions about product and user trends to help drive feature and Bet direction. Your investigation skills go beyond talking about the what and why; you go a level deeper by using insights to predict and prevent future issues. You leverage user and feature insights to help understand and mitigate risk throughout the product lifecycle. You identify and communicate high-risk areas for projects on your Bet/Tribe roadmap. You share your conclusions with other parties at the company to help frame product decisions. You understand how each outcome impacts stakeholders, departments and the success of the product.",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 4
@@ -1086,49 +1083,47 @@ export const tracks: Tracks = {
   },
 
   "RECRUITING": {
-    "displayName": "Growth",
+    "displayName": "Drive Metric",
     "category": "D",
-    "description": "Investment in personal and professional development", 
-
-
+    "description": "You have a focus to learn and continuously improve yourself, process and quality throughout Hudl.  You build relationships that help get things done faster and better. You challenge and level up others on how to view and think about quality by focusing on prevention and efficiency. You bring the #realtalk when challenging the status quo and then provide the strategy and solutions for actionable next steps.", 
     "milestones": [{
       //Milestone 1
-      "summary": "You are leveling up personally and are starting to grow within your role",
+      "summary": "You are learning about how your role delivers value. You are forming relationships focused on building trust and confidence within your squad. You’re having conversations that help yourself and others understand and improve quality and processes. ",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 2
-      "summary": "You are growing within your role and evolving your skillset",
+      "summary": "You seek to increase the amount of value you’re delivering. You utilize your relationships to help guide direction and discussions focused on delivering high-quality solutions. You are knowledgeable about quality best practices and processes and are looking for ways to evolve them. You challenge and level up your squad on how to view and think about quality by focusing on prevention and efficiency.",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "MASTERY: Your outcomes largely impact your expected roles area of impact and your outcomes reflect a higher level of understanding, efficiency and success.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 3
-      "summary": "You are helping others grow personally and or professionally",
+      "summary": "You are evolving the way your role delivers value and mitigates risk. You leverage relationships throughout the chapter and product team to push improvements in quality forward. You coach and empower others to make decisions that contribute to high-quality products. You strategically challenge process and direction and then lead the charge in implementing successful solutions.",
       "signals": [
-        "Example Behavior",
-        "Example Behavior",
-        "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
+        // "Example Behavior",
       ],
       "examples": [
-        "Example Task",
-        "Example Task",
-        "Example Task",
+        "COACHING: You are sharing your mastery of metrics and focus areas with those outside of your role expected area of impact. Your outcomes can be seen being leveraged by others throughout the Tribe(s) and or Chapter.",
+        // "Example Task",
+        // "Example Task",
       ],
     }, {
       //Milestone 4
@@ -1159,7 +1154,7 @@ export const tracks: Tracks = {
     }],
   },
 
-  "COMMUNITY": {
+  /*"COMMUNITY": {
     "displayName": "Community",
     "category": "D",
     "description": "Builds community internally, gives of themself to the team, and champions and extols company values",
@@ -1254,7 +1249,7 @@ export const totalPointsFromMilestoneMap = (milestoneMap: MilestoneMap): number 
 
 export const categoryColorScale = d3.scaleOrdinal()
   .domain(categoryIds)
-  .range(['#009ce3', '#5f7284', '#ff6300', '#394551'])
+  .range(['#009ce3', '#5f7284', '#ff6300', '#A7AEB5'])
 
 export const titles = [
   {label: 'QA', minPoints: 0, maxPoints: 90},

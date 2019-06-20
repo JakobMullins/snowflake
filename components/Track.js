@@ -76,7 +76,7 @@ class Track extends React.Component<Props> {
                   <li key={i}>{signal}</li>
                 ))}
               </ul>
-              {/* <h4>Example tasks:</h4> */}
+              {<h4>Outcome Type:</h4>}
               <ul>
                 {currentMilestone.examples.map((example, i) => (
                   <li key={i}>{example}</li>
