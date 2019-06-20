@@ -180,7 +180,7 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "You are mitigating risk and introducing quality in all aspects of the life cycle.",
+      "summary": "You use your various methods of preventing risk to coach others on how to mitigate risk and the different ways of introducing quality earlier in the product life cycle.",
       "signals": [
         "Test Plans",
         "Acceptance Criteria",
@@ -239,7 +239,7 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 2
-      "summary": "You are able to understand and mitigate risk on the UI and API layer of your product.",
+      "summary": "You know your squad's system architecture and understand the key components that make up your feature or platform on the business and product level.",
       "signals": [
         "Integration Testing",
         "Tribe Product & Feaure Knowledge",
@@ -252,7 +252,7 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "You know your squad's system architecture and understand the key components that make up your feature or platform on the business and product level.",
+      "summary": "You coach others on how to better understand your products key features, workflows and technical aspects that make up the product. You are leveraging your product stack knowledge to enhance quality.",
       "signals": [
         "Integration Testing",
         "Tribe Product & Feaure Knowledge",
@@ -395,7 +395,7 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "You are able to leverage different sources of data to answer complex questions about product and user trends.",
+      "summary": "You leverage different sournces of data to answer complex questions about product and user trends. You use that data in conversations to drive change and a deeper level of understanding relating to the product.",
       "signals": [
         "Feature Usage",
         "User Insights",
@@ -441,7 +441,7 @@ export const tracks: Tracks = {
     "description": "Shares the right amount of information with the right people, at the right time, and reacts effectively.",
     "milestones": [{
       //Milestone 1
-      "summary": "You are able to understand risks and then prioritize user impact in conversations.",
+      "summary": "You are learning about the different types of risk and how to prirotizie that risk based on user impact in different conversations and meetings.",
       "signals": [
         "Feature & User Dashboards",
         "Quality Indicators",
@@ -539,7 +539,7 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "Your investigation skills go beyond talking about the what and why; you go a level deeper by using insights to predict and prevent future issues.",
+      "summary": "Your investigation skills go beyond talking about the what and why; you go a level deeper by using insights to predict and prevent future issues. You then use these insights to coach and help others better understand the root cause for risks, issues or trends.",
       "signals": [
         "Post Mortems",
         "Stack Traces",
@@ -754,7 +754,7 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "You are strategically challenging process and direction.",
+      "summary": "You are stragically challenging process and direction by leveling up others mindsets regarding quality best pratices and risk mitigation.",
       "signals": [
         "Code Reviews",
         "Design Reviews",
@@ -970,7 +970,7 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 3
-      "summary": "Your entire testing approach is focused around mitigating risk early in the development lifecycle. You prevent defects by leveraging past experience and knowledge. You have knowledge of your product system architecture and know the key components that make up your feature or platform.",
+      "summary": "Your entire testing approach is focused around mitigating risk early in the development lifecycle. You prevent defects by leveraging past experience and knowledge. You coach others on how to improve quality earlier in the product life cycle. You have a deep knowledge of your product system architecture and know the key components that make up your feature or platform which leads to a higher level of quality.",
       "signals": [
         // "Example Behavior",
         // "Example Behavior",
