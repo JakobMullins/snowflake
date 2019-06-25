@@ -103,7 +103,7 @@ export const tracks: Tracks = {
         "Exploratory Testing",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
       ],
       //Milestone 2
     }, {
@@ -161,7 +161,7 @@ export const tracks: Tracks = {
         "Design Reviews",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -233,7 +233,7 @@ export const tracks: Tracks = {
         "Hudl Tools & Platforms Expertise",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -305,7 +305,7 @@ export const tracks: Tracks = {
         "Understanding the customers wants vs needs",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -376,7 +376,7 @@ export const tracks: Tracks = {
         "Feaure & App Peformance Health"
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -448,7 +448,7 @@ export const tracks: Tracks = {
         "Tracking & Prioritizing Quality Debt",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -520,7 +520,7 @@ export const tracks: Tracks = {
         "Reproing Issues",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -591,7 +591,7 @@ export const tracks: Tracks = {
         "Impact & Risk Analysis",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -663,7 +663,7 @@ export const tracks: Tracks = {
         "Hudl Work Smarter Learnings",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -735,7 +735,7 @@ export const tracks: Tracks = {
         "Release Strategy",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -807,7 +807,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -879,7 +879,7 @@ export const tracks: Tracks = {
         "Increasing knowledge within the Chapter",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -951,7 +951,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -1023,7 +1023,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
@@ -1095,7 +1095,7 @@ export const tracks: Tracks = {
         // "Example Behavior",
       ],
       "examples": [
-        "LEARNNG: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
+        "LEARNING: You outcomes largely impact self and you are starting to see the benefits of metric and focus area outcomes.",
         // "Example Task",
         // "Example Task",
       ],
