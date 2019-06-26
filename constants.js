@@ -151,7 +151,7 @@ export const tracks: Tracks = {
   "WEB_CLIENT": {
     "displayName": "Test: Shifting Left",
     "category": "A",
-    "description": "Ensuring quality earlier in the product lifecycle.",
+    "description": "Ensuring quality earlier in the product lifecycle improves the quality pre and post production",
     "milestones": [{
       //Milestone 1
       "summary": "You are starting to identify and documenting risk for features.",
@@ -370,6 +370,7 @@ export const tracks: Tracks = {
     "description": "Ability to understand insights relating to products and users.",
     "milestones": [{
       //Milestone 1
+      "summary": "You are learning and starting to use Hudl’s analysis tools to evaluate and guide your decisions.",
       "signals": [
         "Feature Usage",
         "User Insights",
