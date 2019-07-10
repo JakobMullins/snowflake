@@ -120,7 +120,7 @@ export const tracks: Tracks = {
       ],
       //Milestone 3
     }, {
-      "summary": "You are creating and coaching others on how to best use specific testing methods and tools.",
+      "summary": "You are creating new testing methods/strategies and coaching others on how to best use specific testing methods and tools.",
       "signals": [
         "Automation",
         "Test Bashes",
@@ -167,7 +167,7 @@ export const tracks: Tracks = {
       ],
     }, {
       //Milestone 2
-      "summary": "You are starting to implement multiple ways of introducing quality earlier into the product lifecycle.",
+      "summary": "You implement multiple ways of introducing quality earlier into the product lifecycle.",
       "signals": [
         "Test Plans",
         "Acceptance Criteria",
